@@ -1,0 +1,53 @@
+﻿
+Microsoft Visual Studio Solution File, Format Version 12.00
+# Visual Studio 14
+VisualStudioVersion = 14.0.24720.0
+MinimumVisualStudioVersion = 10.0.40219.1
+Project("{8BC9CEB8-8B4A-11D0-8D11-00A0C91BC942}") = "libjscocos2d.Shared", "libjscocos2d.Shared\libjscocos2d.Shared.vcxitems", "{BEA66276-51DD-4C53-92A8-F3D1FEA50892}"
+EndProject
+Project("{8BC9CEB8-8B4A-11D0-8D11-00A0C91BC942}") = "libjscocos2d.Windows", "libjscocos2d.Windows\libjscocos2d.Windows.vcxproj", "{BCF5546D-66A0-4998-AFD6-C5514F618930}"
+EndProject
+Project("{8BC9CEB8-8B4A-11D0-8D11-00A0C91BC942}") = "libjscocos2d.WindowsPhone", "libjscocos2d.WindowsPhone\libjscocos2d.WindowsPhone.vcxproj", "{CA082EC4-17CE-430B-8207-D1E947A5D1E9}"
+EndProject
+Global
+	GlobalSection(SharedMSBuildProjectFiles) = preSolution
+		libjscocos2d.Shared\libjscocos2d.Shared.vcxitems*{ca082ec4-17ce-430b-8207-d1e947a5d1e9}*SharedItemsImports = 4
+		libjscocos2d.Shared\libjscocos2d.Shared.vcxitems*{bea66276-51dd-4c53-92a8-f3d1fea50892}*SharedItemsImports = 9
+		libjscocos2d.Shared\libjscocos2d.Shared.vcxitems*{bcf5546d-66a0-4998-afd6-c5514f618930}*SharedItemsImports = 4
+	EndGlobalSection
+	GlobalSection(SolutionConfigurationPlatforms) = preSolution
+		Debug|ARM = Debug|ARM
+		Debug|x64 = Debug|x64
+		Debug|x86 = Debug|x86
+		Release|ARM = Release|ARM
+		Release|x64 = Release|x64
+		Release|x86 = Release|x86
+	EndGlobalSection
+	GlobalSection(ProjectConfigurationPlatforms) = postSolution
+		{BCF5546D-66A0-4998-AFD6-C5514F618930}.Debug|ARM.ActiveCfg = Debug|ARM
+		{BCF5546D-66A0-4998-AFD6-C5514F618930}.Debug|ARM.Build.0 = Debug|ARM
+		{BCF5546D-66A0-4998-AFD6-C5514F618930}.Debug|x64.ActiveCfg = Debug|x64
+		{BCF5546D-66A0-4998-AFD6-C5514F618930}.Debug|x64.Build.0 = Debug|x64
+		{BCF5546D-66A0-4998-AFD6-C5514F618930}.Debug|x86.ActiveCfg = Debug|Win32
+		{BCF5546D-66A0-4998-AFD6-C5514F618930}.Debug|x86.Build.0 = Debug|Win32
+		{BCF5546D-66A0-4998-AFD6-C5514F618930}.Release|ARM.ActiveCfg = Release|ARM
+		{BCF5546D-66A0-4998-AFD6-C5514F618930}.Release|ARM.Build.0 = Release|ARM
+		{BCF5546D-66A0-4998-AFD6-C5514F618930}.Release|x64.ActiveCfg = Release|x64
+		{BCF5546D-66A0-4998-AFD6-C5514F618930}.Release|x64.Build.0 = Release|x64
+		{BCF5546D-66A0-4998-AFD6-C5514F618930}.Release|x86.ActiveCfg = Release|Win32
+		{BCF5546D-66A0-4998-AFD6-C5514F618930}.Release|x86.Build.0 = Release|Win32
+		{CA082EC4-17CE-430B-8207-D1E947A5D1E9}.Debug|ARM.ActiveCfg = Debug|ARM
+		{CA082EC4-17CE-430B-8207-D1E947A5D1E9}.Debug|ARM.Build.0 = Debug|ARM
+		{CA082EC4-17CE-430B-8207-D1E947A5D1E9}.Debug|x64.ActiveCfg = Debug|Win32
+		{CA082EC4-17CE-430B-8207-D1E947A5D1E9}.Debug|x86.ActiveCfg = Debug|Win32
+		{CA082EC4-17CE-430B-8207-D1E947A5D1E9}.Debug|x86.Build.0 = Debug|Win32
+		{CA082EC4-17CE-430B-8207-D1E947A5D1E9}.Release|ARM.ActiveCfg = Release|ARM
+		{CA082EC4-17CE-430B-8207-D1E947A5D1E9}.Release|ARM.Build.0 = Release|ARM
+		{CA082EC4-17CE-430B-8207-D1E947A5D1E9}.Release|x64.ActiveCfg = Release|Win32
+		{CA082EC4-17CE-430B-8207-D1E947A5D1E9}.Release|x86.ActiveCfg = Release|Win32
+		{CA082EC4-17CE-430B-8207-D1E947A5D1E9}.Release|x86.Build.0 = Release|Win32
+	EndGlobalSection
+	GlobalSection(SolutionProperties) = preSolution
+		HideSolutionNode = FALSE
+	EndGlobalSection
+EndGlobal
